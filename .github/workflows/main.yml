@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-      - feature-187
+      - feature/187
 jobs:
   build:
     runs-on: ubuntu-latest
