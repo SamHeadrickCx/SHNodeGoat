@@ -29,7 +29,7 @@ jobs:
           CX_APIKEY: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjZDBmN2QxMS00YjE0LTQ3YTUtYTlhMy1lMmI2M2YwOTUwZTAifQ.eyJpYXQiOjE2ODcyOTI2NDcsImp0aSI6IjQ5N2M5NWMxLTM5NjktNGFhOS04ZWMyLTZlMDEyNzk4NmE4ZSIsImlzcyI6Imh0dHBzOi8vaWFtLmNoZWNrbWFyeC5uZXQvYXV0aC9yZWFsbXMvY3hvbmUtc2FtaCIsImF1ZCI6Imh0dHBzOi8vaWFtLmNoZWNrbWFyeC5uZXQvYXV0aC9yZWFsbXMvY3hvbmUtc2FtaCIsInN1YiI6IjhjODRkNTgzLTgyNTAtNGJlYi04MGViLWY5YzE1N2QxYzU0MSIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJhc3QtYXBwIiwic2Vzc2lvbl9zdGF0ZSI6IjAxMjIwMTE3LTY4MDAtNDY5ZS05MmRiLWI1MDI2YTZjZDhmOCIsInNjb3BlIjoiIG9mZmxpbmVfYWNjZXNzIiwic2lkIjoiMDEyMjAxMTctNjgwMC00NjllLTkyZGItYjUwMjZhNmNkOGY4In0.Z5kO33Y3_GWIlQFqm68dk9QXj9JGAN-A4zIUChZcxRs
         with:
           command: web
-          config: /home/runner/work/SHNodeGoat/SHNodeGoat/TESTtestphp.yaml
+          config: testphp.yaml
           environment_id: 89283d54-7933-4600-b9df-9a4807db7347
           fail_on: "HIGH"
           log_level: info
