@@ -19,6 +19,8 @@ jobs:
 #        run: cp testphp.yml ${{ github.workspace }}
       - name: PWD
         run: pwd
+      - name: COPY YAML
+        run: cp testphp.yml /github/workspace/
       - name: ls dirs
         run: ls -larh ${{ github.workspace }}
       - name: Checkmarx DAST Github Action
