@@ -15,7 +15,7 @@ jobs:
         with:
           command: "web"
           config: 'testphp.yaml'
-          base_url: "http://testasp.vulnweb.com"
-          environment_id: "ed00d705-19f6-4a1a-9514-b34c989af554"
+          base_url: "http://testphp.vulnweb.com"
+          environment_id: "89283d54-7933-4600-b9df-9a4807db7347"
           fail_on: "HIGH"
           verbose: true            
