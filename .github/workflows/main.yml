@@ -16,7 +16,7 @@ jobs:
       - name: Change dir owner
         run: sudo chown -R 1000:1000 ${{ github.workspace }}
       - name: copy YAML
-        run: cp testphp.yml ${{ github.workspace }}/testphp.yaml }}
+        run: cp testphp.yml ${{ github.workspace }}/testphp.yaml
       - name: PWD
         run: pwd
       - name: echo workspace
